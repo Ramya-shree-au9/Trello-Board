@@ -1,0 +1,85 @@
+.registration-form {
+  background-color: whitesmoke;
+  padding: 3% 0;
+}
+
+.registration-form form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: auto;
+  padding: 3% 5%;
+  border-radius: 30px;
+ 
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .checkboxcontent {
+  font-size: 130%;
+  padding: 0 0 2% 2%;
+}
+
+.registration-form .form-icon {
+  text-align: center;
+  background-color: #5891ff;
+  border-radius: 50px;
+  font-size: 420%;
+  color: white;
+  width: 38%;
+  height: 20%;
+  margin: auto;
+  margin-bottom: 15%;
+  line-height: 100px;
+}
+
+.registration-form .item {
+  border-radius: 20px;
+  margin-top: 6%;
+  padding: 6% 4%;
+}
+
+.registration-form .create-account {
+  border-radius: 30px;
+  padding: 1% 4%;
+  font-size: 150%;
+  font-weight: bold;
+  background-color: #5791ff;
+  border: none;
+  color: white;
+  margin-top: 7%;
+}
+
+.registration-form .error {
+  color: red;
+  font-size: 100%;
+}
+
+@media (max-width: 576px) {
+  .registration-form form {
+    padding: 50px 20px;
+  }
+  .registration-form .form-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 70px;
+  }
+}
+
+.hr {
+  height: 2px;
+  margin: 8% 0;
+  background: rgba(0, 0, 0, 0.445);
+}
+
+.foot {
+  text-align: center;
+  font-size: 120%;
+  color: chocolate;
+}
+
+.loginlink {
+  text-align: center;
+  font-size: 160%;
+}
+/*# sourceMappingURL=SignupLogin.css.map */

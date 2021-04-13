@@ -1,0 +1,92 @@
+.sectioncolumn{
+
+}
+
+.todohead{
+    background-color: rgba(128, 128, 128, 0.281);
+    margin: 5% 2%;
+    width: 280px;
+    /* border:red 2px solid; */
+    margin-top: 4%;
+    
+   
+}
+.listhead{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 2% 4%;
+}
+.todohead2{
+    background-color: rgba(128, 128, 128, 0.281);
+    margin:3% 2%;
+    width: 220px;
+    /* width: 30%; */
+    
+    height: fit-content;
+   
+}
+.titlehead{
+    
+    color: chocolate;
+}
+.listicons{
+    margin-top: 6%;
+    /* float: right; */
+}
+.errinbtn{
+    color: red;
+    margin-left: 5%;
+}
+
+.todolistcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.cardinputs{
+    background-color: white;
+    margin: 5% 8%;
+    margin-bottom: 2%;
+    color: black;
+    width: 70%;  
+    padding: 3%;
+}
+.bottomicon{
+    display: flex;
+}
+.cardsicon{
+    display: flex;
+    margin-left: 3%;
+}
+.inputbtnadd{
+    margin-left: 8%;
+    margin-top: 10%;
+    overflow: visible;
+    outline: none;
+    border: none;
+    overflow: visible;
+    width: 80%;  
+}
+
+
+.cardeditrender > input{
+    outline: none;
+    border: none;
+    margin-left: 11%;
+}
+
+.addcardsbtn{
+    cursor: pointer;
+    margin-left: 6%;
+}
+
+.addcardbtn{
+    margin: 5% 5% 5% 8%;
+}
+.cancelbtncard{
+    cursor: pointer;
+    margin-top: 6%;
+}
+.cancelbtncard > i{
+    font-size: 30px;
+}
