@@ -6,9 +6,10 @@
     background-color: rgba(128, 128, 128, 0.281);
     margin: 5% 2%;
     width: 280px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 0, 0, 0.384);
     /* border:red 2px solid; */
     margin-top: 4%;
-    
    
 }
 .listhead{
@@ -16,8 +17,13 @@
     align-content: space-between;
     justify-content: space-between;
     margin: 2% 4%;
+
 }
+/* .sectionhead{
+    background-color: cyan;
+} */
 .todohead2{
+    border-radius: 3px;
     background-color: rgba(128, 128, 128, 0.281);
     margin:3% 2%;
     width: 220px;
@@ -27,8 +33,8 @@
    
 }
 .titlehead{
-    
-    color: chocolate;
+    margin-left: 6%;
+    color:red;
 }
 .listicons{
     margin-top: 6%;
@@ -45,6 +51,8 @@
 }
 .cardinputs{
     background-color: white;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.418);
     margin: 5% 8%;
     margin-bottom: 2%;
     color: black;

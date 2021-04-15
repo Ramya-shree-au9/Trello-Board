@@ -6,7 +6,7 @@ const profile = (props) => {
     }=props
   return (
     <div className="rightsection">
-        <h5 className='sechead'>Personal Information</h5>
+        {/* <h5 className='sechead'>Personal Information</h5> */}
         <h5 className='sechead'>Name</h5>
       <div  className='d-flex'>
       <div className="form-group">
